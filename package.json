@@ -1,0 +1,25 @@
+{
+  "name": "forkify-app",
+  "version": "1.0.0",
+  "description": "FOOD RECIPE APP",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sarthak Baluni",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4",
+    "@types/core-js": "^2.5.8",
+    "@types/regenerator-runtime": "^0.13.8",
+    "parcel": "^2.14.4",
+    "sass": "^1.86.2"
+  },
+  "dependencies": {
+    "core-js": "^3.41.0",
+    "fraction.js": "^5.2.2",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
