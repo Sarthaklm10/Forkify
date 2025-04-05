@@ -119,7 +119,7 @@
 
 import View from './View.js';
 
-// For Parcel 2
+// For Parcel
 import icons from 'url:../../img/icons.svg';
 const { Fraction } = require("fraction.js");
 
@@ -175,10 +175,7 @@ class RecipeView extends View {
           </div>
         </div>
 
-        <div class="recipe__user-generated ${this._data.key ? '' : 'hidden'}">
-          <svg>
-            <use href="${icons}#icon-user"></use>
-          </svg>
+        <div class="recipe__user-generated ${this._data.key ? '' : 'hidden'}"> 
         </div>
         <button class="btn--round btn--bookmark">
           <svg class="">
