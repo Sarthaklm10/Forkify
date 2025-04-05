@@ -51,7 +51,7 @@
 97C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\src\img\favicon.png133882642127442154 0
 130C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\transformer-babel\src\config.js133882642089380691 0
 146C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\internals\fix-regexp-well-known-symbol-logic.js133882642112815471 0
-82C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist133883244886646716 1
+82C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist133883246157595169 1
 152C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\posthtml\node_modules\htmlparser2\lib\WritableStream.d.ts.map133882642125540961 0
 137C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\internals\array-buffer-not-detached.js133882642112375243 0
 104C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\src\js\views\recipeView.js133883127185980158 0
@@ -79,7 +79,7 @@
 123C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\actual\array\iterator.js133882642101778076 0
 126C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\msgpackr\dist\index-no-eval.cjs.map133882642124143163 0
 115C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\term-size\vendor\windows133882642126805014 1
-102C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\starter.4a59a05f.js133883244886606744 0
+102C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\starter.4a59a05f.js133883246157478150 0
 114C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\fill-range\package.json133882642120617654 0
 142C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\@swc\helpers\_\_class_static_private_field_spec_set133882642094622258 1
 123C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\actual\regexp\replace.js133882642103191477 0
@@ -283,7 +283,7 @@
 111C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\micromatch\README.md133882642123921021 0
 134C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\typed-array\float32-array.js133882642118805665 0
 97C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\@babel133882642067946218 1
-94C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\src\js\config.js133883243754399030 0
+94C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\src\js\config.js133883246154697483 0
 103C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\posthtml\lib133882642124965721 1
 129C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\@swc\helpers\cjs\_set_prototype_of.cjs133882642095473590 0
 133C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\actual\array-buffer\constructor.js133882642101626881 0
@@ -2317,7 +2317,7 @@
 122C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\runtime-browser-hmr\src133882642071692479 1
 150C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\internals\object-get-own-property-names-external.js133882642113291477 0
 107C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\lmdb\SECURITY.md133882642123025911 0
-101C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\icons.0809ef97.svg133883244886383682 0
+101C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\icons.0809ef97.svg133883245835678166 0
 126C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\caniuse-lite\data\features\http3.js133882642098448023 0
 115C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\lmdb\src\compression.cpp133882642123829131 0
 128C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\esnext.promise.try.js133882642115797234 0
@@ -4553,7 +4553,7 @@
 136C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\esnext.set.is-subset-of.v2.js133882642115921032 0
 144C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\runtime-js\src\helpers\browser\html-loader.js133882642071837522 0
 135C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\esnext.set.is-superset-of.js133882642115921032 0
-100C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\logo.726d37a8.png133883244886537056 0
+100C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\logo.726d37a8.png133883245835431128 0
 138C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\esnext.set.is-superset-of.v2.js133882642115931038 0
 125C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\modules\esnext.set.join.js133882642115931038 0
 124C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\full\symbol\observable.js133882642111869181 0
@@ -8182,12 +8182,12 @@
 104C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\.bin\sass.ps1133882642067853175 0
 118C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\.bin\update-browserslist-db133882642067868212 0
 122C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\node_modules\.bin\update-browserslist-db.ps1133882642067881285 0
-103C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\favicon.8b2f57bf.png133883244886151257 0
-101C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\icons.21bad73c.svg133883244886383682 0
-93C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\index.html133883244886187157 0
+103C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\favicon.8b2f57bf.png133883245834927359 0
+101C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\icons.21bad73c.svg133883245835655769 0
+93C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\index.html133883245835678166 0
 106C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\starter.3464ddca.js.map133882642067457568 0
-106C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\starter.4a59a05f.js.map133883244886636721 0
-103C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\starter.f7626f62.css133883244886187157 0
-107C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\starter.f7626f62.css.map133883244886383682 0
+106C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\starter.4a59a05f.js.map133883246157575169 0
+103C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\starter.f7626f62.css133883245835142933 0
+107C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\starter.f7626f62.css.map133883245835215169 0
 99C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\view.c20d27fd.js133882642067513082 0
 103C:\Users\balun\Downloads\complete-javascript-course-master\18-forkify\starter\dist\view.c20d27fd.js.map133882642067523079 0
