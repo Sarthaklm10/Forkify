@@ -4,8 +4,8 @@ export default class View {
 
   render(data) {
 
-     // Check if data is an array & is not empty 
-     if (!data || Array.isArray(data) && data.length === 0)
+    // Check if data is an array & is not empty 
+    if (!data || Array.isArray(data) && data.length === 0)
       return this.renderError();
 
     this._data = data;
@@ -17,6 +17,42 @@ export default class View {
   _clear() {
     console.log(this._parentElement);
     this._parentElement.innerHTML = '';
+  }
+
+  update(data) {
+    // Check if data is an array & is not empty 
+    // if (!data || Array.isArray(data) && data.length === 0)
+    //   return this.renderError();
+
+    this._data = data;
+    const newMarkup = this._generateMarkup();
+
+    // Convert string to new DOM object(virtual DOM)
+    const newDOM = document.createRange().createContextualFragment(newMarkup);
+
+    const newElements = Array.from(newDOM.querySelectorAll("*"));
+
+    const curElements = Array.from(this._parentElement.querySelectorAll("*"));
+
+    newElements.forEach((newEl, i) => {
+
+      const curEl = curElements[i];
+      // console.log(newEl, newEl.isEqualNode(curEl));
+
+      // Update the textcontent of the current element
+      if (!newEl.isEqualNode(curEl)
+        && newEl.firstChild?.nodeValue.trim() !== '') curEl.textContent = newEl.textContent;
+
+      // Update attributes of current elt
+      if (!newEl.isEqualNode(curEl)) {
+        const arr = Array.from(newEl.attributes)
+        // console.log(arr);
+        arr.forEach(function (attr) {
+          console.log(attr);
+          curEl.setAttribute(attr.name, attr.value);
+        })
+      }
+    })
   }
 
   renderSpinner() {
