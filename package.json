@@ -2,9 +2,10 @@
   "name": "forkify-app",
   "version": "1.0.0",
   "description": "FOOD RECIPE APP",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --dist-dir ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sarthak Baluni",
@@ -14,7 +15,8 @@
     "@types/core-js": "^2.5.8",
     "@types/regenerator-runtime": "^0.13.8",
     "parcel": "^2.14.4",
-    "sass": "^1.86.2"
+    "sass": "^1.86.2",
+    "svgo": "^3.3.2"
   },
   "dependencies": {
     "core-js": "^3.41.0",

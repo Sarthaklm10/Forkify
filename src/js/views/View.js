@@ -1,9 +1,16 @@
 import icons from 'url:../../img/icons.svg';
+
 export default class View {
   _data;
 
-  render(data) {
-
+  /**
+   * Render received object to DOM
+   * @param {Object|Object[]} data Data to be rendered 
+   * @param {boolean} [render=true] If false, create markup string instead of rendering
+   * @returns {undefined|string} A markup string returned if render=false
+   * @this {View} View instance  
+   */
+  render(data, render = true) {
     // Check if data is an array & is not empty 
     if (!data || Array.isArray(data) && data.length === 0)
       return this.renderError();
@@ -11,19 +18,29 @@ export default class View {
     this._data = data;
     const markup = this._generateMarkup();
 
+    if (!render)
+      return markup;
+
     this._clear();
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
   }
+
+  /**
+   * Clears the parent element's content
+   * @private
+   * @this {View}
+   */
   _clear() {
-    console.log(this._parentElement);
+    // console.log(this._parentElement);
     this._parentElement.innerHTML = '';
   }
 
+  /**
+   * Efficiently updates the DOM using virtual DOM diffing
+   * @param {Object} data Updated data to be patched into the view
+   * @this {View}
+   */
   update(data) {
-    // Check if data is an array & is not empty 
-    // if (!data || Array.isArray(data) && data.length === 0)
-    //   return this.renderError();
-
     this._data = data;
     const newMarkup = this._generateMarkup();
 
@@ -35,7 +52,6 @@ export default class View {
     const curElements = Array.from(this._parentElement.querySelectorAll("*"));
 
     newElements.forEach((newEl, i) => {
-
       const curEl = curElements[i];
       // console.log(newEl, newEl.isEqualNode(curEl));
 
@@ -48,13 +64,17 @@ export default class View {
         const arr = Array.from(newEl.attributes)
         // console.log(arr);
         arr.forEach(function (attr) {
-          console.log(attr);
+          // console.log(attr);
           curEl.setAttribute(attr.name, attr.value);
         })
       }
     })
   }
 
+  /**
+   * Render a loading spinner inside parent element
+   * @this {View}
+   */
   renderSpinner() {
     const markup = `
           <div class="spinner">
@@ -64,9 +84,14 @@ export default class View {
           </div>`
     this._parentElement.innerHTML = "";
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
-    console.log(icons);
+    // console.log(icons);
   }
 
+  /**
+   * Render an error message to the DOM
+   * @param {string} [message=this._errorMessage] The message to show
+   * @this {View}
+   */
   renderError(message = this._errorMessage) {
     const markup = `
     <div class="error">
@@ -84,7 +109,12 @@ export default class View {
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
   }
 
-  renderMessage(message = this._successMessage) {
+  /**
+   * Render a generic success message to the DOM
+   * @param {string} [message=this._message] The message to show
+   * @this {View}
+   */
+  renderMessage(message = this._message) {
     const markup = `
     <div class="message">
     <div>
